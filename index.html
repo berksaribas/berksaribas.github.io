@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Berk Emre Saribas</title>
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet">         
+        <link rel="stylesheet" type="text/css" href="css/style.css?v=1.05">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="I am an indie game developer, Android developer and web developer. Check out my projects!">
+        <script
+			  src="http://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <script>
+            $(document).on('click', 'a[href^="#"]', function(e) {
+                var id = $(this).attr('href');
+
+                var $id = $(id);
+                if ($id.length === 0) {
+                    return;
+                }
+
+                e.preventDefault();
+
+                var pos = $id.offset().top;
+
+                $('body, html').animate({scrollTop: pos});
+            });
+        </script>
+    </head>
+    <body>
+        <section class="container">
+            <div class="header">
+                <div class="holder">
+                    <div class="navbar">
+                        <div class="left-part">
+                            <div class="name">
+                                Berk Emre Saribas
+                            </div>
+                            <div class="info">
+                                Developer
+                            </div>
+                        </div>
+                        <div class="right-part">
+                            <a href="#about" class="navbar-button">
+                                About
+                            </a>
+                            <a href="#skills" class="navbar-button active">
+                                Skills
+                            </a>
+                            <a href="#projects" class="navbar-button">
+                                Projects
+                            </a>
+                            <a href="#hobbies" class="navbar-button">
+                                Hobbies
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="site-content">
+                <div class="part entrance" id="about">
+                    <div class="holder">
+                        <div class="title">
+                            ABOUT ME
+                        </div>
+                        <div class="content bigger-font together">
+                            <div class="profile-pic">
+                                <img src="img/pp.jpg">
+                                <div class="info">
+                                    Paris / 2017
+                                </div>
+                            </div>
+                            <span>
+                                 Hey there! I am Berk, a 20-year-old indie game, and Java developer. I've been <strong>making games</strong> for 6 years. Recently I got interested in web development and here I am. Also, I'm trying to catch up with the latest updates on Android Development. Currently, I am a student at Sabanci University. 
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="part white" id="skills">
+                    <div class="holder">
+                        <div class="title right">
+                            MY SKILLS
+                        </div>
+                        <div class="content">
+                            I've been working with Java for 6 years now. I've been using LibGDX for game development since its early versions. So I see Java and LibGDX as my strongest skills. I've been also into Android Development for one and a half year but I am still learning it. Also, I had to learn SCSS and Javascript for a startup I worked for. I don't think front end development will ever be my primary focus but I still like to learn more about it!
+
+                            Here are a few technologies that I am familiar with:
+                            <ul>
+                                <li class="eighty">Java SE
+                                    <div class="info">80%</div>
+                                </li>
+                                <li class="seventy">LibGDX
+                                    <div class="info">70%</div>
+                                </li>
+                                <li class="forthy">C++
+                                    <div class="info">40%</div>
+                                </li>
+                                <li class="fifty">PHP
+                                    <div class="info">50%</div>
+                                </li>
+                                <li class="seventy">SQL
+                                    <div class="info">70%</div>
+                                </li>
+                                <li class="eighty">Javascript/jQuery
+                                    <div class="info">80%</div>
+                                </li>
+                                <li class="ninty">CSS/SCSS
+                                    <div class="info">90%</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="part lighter nopad" id="projects">
+                    <div class="portfolio-content">
+                        <a href="https://brandiyo.com" class="portfolio-box" style="background-color: #4a4cb5">
+                            <img src="img/brandiyo.png">
+                            <div class="info">
+                                Front End Developer
+                            </div>
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.mutfak.kunyo.android" class="portfolio-box" style="background: url('img/chromoid_background.jpg'); background-size: cover;">
+                            <img src="img/chromoid_logo.png">
+                            <div class="info">
+                                Programmer
+                            </div>
+                        </a>
+                        <a class="portfolio-box" style="background: url('img/xboback.jpg'); background-size: cover;">
+                            <img src="img/xbo.png">
+                            <div class="info">
+                                Developer
+                            </div>
+                        </a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="http://ludumdare.com/compo/author/okmmjyygv" class="portfolio-box" style="background-color: #1f2429">
+                            <img src="img/ludumdare.png">
+                            <div class="info">
+                                Games I made for Ludum Dare
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/8factr" class="portfolio-box" style="background-color: #000000">
+                            <img src="img/8factr.png">
+                            <div class="info">
+                                Turkish Page of 8fact
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="part ender" id="hobbies">
+                    <div class="holder">
+                        <div class="title">
+                            MY HOBBIES
+                        </div>
+                        <div class="content bigger-font">
+                            <span>
+                                <p>
+                                    I have been playing piano for 2 years. I like watching anime and enjoy playing anime soundtracks with my piano! I also follow some popular tv series as well. Aside from that, I like martial arts and I myself am black belt in Karate.
+                                </p>
+                                <p>
+                                    I also like travelling and meeting people from different cultures. I've been to 8 countries and still counting!
+                                </p>
+                                <p>
+                                    Did I mention I love gaming? Well, I think it is pretty obvious since I make games but it is worth mentioning again. I play nearly every kind of games, from shooter to moba. Since I love gaming so much, I decided to make games myself and that's how I started programming!
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+    
+</html>
