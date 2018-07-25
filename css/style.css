@@ -1,90 +1,98 @@
-/* line 1, D:/Web/berksaribas/scss/style.scss */
 body {
   font-family: 'Nunito', sans-serif;
   background-color: #f3f3f3;
+  color: #333333;
   margin: 0; }
 
-/* line 6, D:/Web/berksaribas/scss/style.scss */
 .holder {
   width: 95%; }
   @media (min-width: 1200px) {
-    /* line 6, D:/Web/berksaribas/scss/style.scss */
     .holder {
       width: 1200px; } }
 
-/* line 13, D:/Web/berksaribas/scss/style.scss */
 .container, .header {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
   align-items: center; }
 
-/* line 20, D:/Web/berksaribas/scss/style.scss */
 .row {
   display: flex;
   margin-top: 15px;
   flex-flow: row wrap; }
 
-/* line 26, D:/Web/berksaribas/scss/style.scss */
 .header {
   background-color: #eb6b5d;
   width: 100%;
   color: white;
   font-weight: bold; }
-  /* line 32, D:/Web/berksaribas/scss/style.scss */
   .header .navbar {
     display: flex;
     text-transform: uppercase;
     align-items: center;
     padding: 15px 0 15px 0; }
     @media (max-width: 480px) {
-      /* line 32, D:/Web/berksaribas/scss/style.scss */
       .header .navbar {
         justify-content: center; } }
-    /* line 40, D:/Web/berksaribas/scss/style.scss */
     .header .navbar .left-part {
       margin-right: auto; }
-      /* line 42, D:/Web/berksaribas/scss/style.scss */
       .header .navbar .left-part .name {
         font-size: 16px; }
-      /* line 45, D:/Web/berksaribas/scss/style.scss */
       .header .navbar .left-part .info {
         font-size: 12px;
         color: #e5e5e5; }
       @media (max-width: 480px) {
-        /* line 40, D:/Web/berksaribas/scss/style.scss */
         .header .navbar .left-part {
           display: none; } }
-    /* line 53, D:/Web/berksaribas/scss/style.scss */
     .header .navbar .right-part {
       font-size: 14px;
       margin-left: auto;
       display: flex; }
       @media (max-width: 480px) {
-        /* line 53, D:/Web/berksaribas/scss/style.scss */
         .header .navbar .right-part {
           margin-left: 0; } }
-      /* line 60, D:/Web/berksaribas/scss/style.scss */
       .header .navbar .right-part .navbar-button {
         text-decoration: none;
         color: white;
         cursor: pointer;
         padding: 10px;
         transition: text-shadow 0.5s; }
-        /* line 66, D:/Web/berksaribas/scss/style.scss */
         .header .navbar .right-part .navbar-button:hover {
           text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white; }
 
-/* line 73, D:/Web/berksaribas/scss/style.scss */
+.job {
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  margin-bottom: 70px; }
+  .job .job-photo img {
+    border-radius: 100%;
+    width: 70px; }
+  .job .job-right {
+    margin-left: 20px;
+    font-size: 19px;
+    width: 100%; }
+    .job .job-right .same-line {
+      display: flex;
+      margin-bottom: 10px; }
+    .job .job-right .job-title {
+      font-weight: bold; }
+    .job .job-right .job-role {
+      font-weight: bold; }
+    .job .job-right .job-time, .job .job-right .job-place {
+      margin-left: auto;
+      font-style: italic; }
+    .job .job-right .job-description {
+      margin-top: 40px;
+      line-height: 34px; }
+
 .portfolio-content {
   width: 100%;
   display: flex; }
   @media (max-width: 480px) {
-    /* line 73, D:/Web/berksaribas/scss/style.scss */
     .portfolio-content {
       flex-flow: column wrap; } }
 
-/* line 80, D:/Web/berksaribas/scss/style.scss */
 .portfolio-box {
   display: flex;
   flex: 1 1 0;
@@ -94,7 +102,6 @@ body {
   position: relative;
   text-decoration: none;
   color: white; }
-  /* line 89, D:/Web/berksaribas/scss/style.scss */
   .portfolio-box .info {
     opacity: 0;
     padding: 10px 0;
@@ -104,23 +111,18 @@ body {
     background: rgba(0, 0, 0, 0.5);
     transition: opacity 0.3s;
     text-align: center; }
-  /* line 99, D:/Web/berksaribas/scss/style.scss */
   .portfolio-box img {
     width: 70%;
     transition: width 0.5s, height 0.5s; }
-  /* line 104, D:/Web/berksaribas/scss/style.scss */
   .portfolio-box:hover img {
     width: 50%; }
-  /* line 107, D:/Web/berksaribas/scss/style.scss */
   .portfolio-box:hover .info {
     opacity: 1; }
   @media (max-width: 480px) {
-    /* line 80, D:/Web/berksaribas/scss/style.scss */
     .portfolio-box {
       width: 100%;
       flex: auto; } }
 
-/* line 116, D:/Web/berksaribas/scss/style.scss */
 .site-content {
   background-color: white;
   width: 100%;
@@ -128,7 +130,6 @@ body {
   flex-flow: row wrap;
   align-items: center; }
 
-/* line 123, D:/Web/berksaribas/scss/style.scss */
 .part {
   width: 100%;
   padding: 150px 0px;
@@ -136,128 +137,105 @@ body {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center; }
-  /* line 130, D:/Web/berksaribas/scss/style.scss */
   .part.nopad {
     padding: 0; }
-  /* line 133, D:/Web/berksaribas/scss/style.scss */
   .part .title {
     font-size: 60px;
     color: #e74c3c; }
     @media (max-width: 480px) {
-      /* line 133, D:/Web/berksaribas/scss/style.scss */
       .part .title {
         font-size: 40px; } }
-    /* line 139, D:/Web/berksaribas/scss/style.scss */
     .part .title.right {
       text-align: right; }
       @media (max-width: 480px) {
-        /* line 139, D:/Web/berksaribas/scss/style.scss */
         .part .title.right {
           text-align: center; } }
     @media (max-width: 480px) {
-      /* line 133, D:/Web/berksaribas/scss/style.scss */
       .part .title {
         text-align: center; } }
-  /* line 149, D:/Web/berksaribas/scss/style.scss */
   .part .content {
     margin-top: 20px;
     justify-content: center;
     align-items: center; }
-    /* line 153, D:/Web/berksaribas/scss/style.scss */
+    .part .content a {
+      text-decoration: none;
+      color: #333333;
+      font-weight: bold;
+      font-style: italic; }
+    .part .content.flex {
+      display: flex; }
     .part .content.bigger-font {
       font-size: 20px; }
-    /* line 156, D:/Web/berksaribas/scss/style.scss */
     .part .content.together {
       display: flex; }
       @media (max-width: 480px) {
-        /* line 156, D:/Web/berksaribas/scss/style.scss */
         .part .content.together {
           justify-content: center;
           flex-flow: column wrap; } }
-    /* line 163, D:/Web/berksaribas/scss/style.scss */
     .part .content ul {
       list-style-type: none;
       margin: 10px 0 0 0;
       padding: 0; }
-      /* line 167, D:/Web/berksaribas/scss/style.scss */
       .part .content ul li {
         display: flex;
         padding: 10px;
         transition: background-color 0.3s, color 0.3s, width 1s;
         font-weight: 700;
         width: 150px; }
-        /* line 173, D:/Web/berksaribas/scss/style.scss */
         .part .content ul li .info {
           opacity: 0;
           transition: opacity 0.3s;
           margin-left: auto; }
-        /* line 178, D:/Web/berksaribas/scss/style.scss */
         .part .content ul li:hover {
           background-color: #f1978d;
           color: white; }
-          /* line 181, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover .info {
             opacity: 1; }
-          /* line 184, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.ninty {
             width: 90%; }
-          /* line 187, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.eighty {
             width: 80%; }
-          /* line 190, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.seventy {
             width: 70%; }
-          /* line 193, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.sixty {
             width: 60%; }
-          /* line 196, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.fifty {
             width: 50%; }
-          /* line 199, D:/Web/berksaribas/scss/style.scss */
           .part .content ul li:hover.forthy {
             width: 40%; }
-  /* line 208, D:/Web/berksaribas/scss/style.scss */
   .part.entrance {
     background: linear-gradient(#eb6b5d, #f1978d);
     color: white; }
-    /* line 211, D:/Web/berksaribas/scss/style.scss */
     .part.entrance .title {
       color: white; }
     @media (max-width: 480px) {
-      /* line 208, D:/Web/berksaribas/scss/style.scss */
       .part.entrance {
         padding: 50px 0;
         height: auto; } }
-  /* line 219, D:/Web/berksaribas/scss/style.scss */
   .part.white {
     background-color: white; }
-  /* line 222, D:/Web/berksaribas/scss/style.scss */
+  .part.gray {
+    background-color: #ddd; }
   .part.lighter {
     background-color: #ef8b80;
     color: white; }
-    /* line 225, D:/Web/berksaribas/scss/style.scss */
     .part.lighter .title {
       color: white; }
-  /* line 230, D:/Web/berksaribas/scss/style.scss */
   .part.ender {
     background-color: #EDEDED; }
   @media (max-width: 480px) {
-    /* line 123, D:/Web/berksaribas/scss/style.scss */
     .part {
       padding: 50px 0;
       height: auto; } }
 
-/* line 238, D:/Web/berksaribas/scss/style.scss */
 .profile-pic {
   position: relative;
   margin-right: 20px; }
-  /* line 240, D:/Web/berksaribas/scss/style.scss */
   .profile-pic img {
     object-fit: cover;
     width: 150px;
     height: 150px;
     border-radius: 100%; }
-  /* line 246, D:/Web/berksaribas/scss/style.scss */
   .profile-pic .info {
     opacity: 0;
     position: absolute;
@@ -270,13 +248,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
-    /* line 258, D:/Web/berksaribas/scss/style.scss */
     .profile-pic .info:hover {
       opacity: 1; }
   @media (max-width: 480px) {
-    /* line 238, D:/Web/berksaribas/scss/style.scss */
     .profile-pic {
       margin-right: 0px;
       margin-bottom: 20px; } }
-
-/*# sourceMappingURL=style.css.map */

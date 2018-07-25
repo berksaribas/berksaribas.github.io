@@ -1,6 +1,7 @@
 body{
     font-family: 'Nunito', sans-serif;
     background-color: #f3f3f3;
+    color: #333333;
     margin: 0;
 }
 .holder{
@@ -67,6 +68,43 @@ body{
                     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
                 }
             }
+        }
+    }
+}
+.job{
+    display: flex;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: 70px;
+    
+
+    & .job-photo {
+        & img{
+            border-radius: 100%;
+            width: 70px;
+        }
+    }
+    & .job-right{
+        margin-left: 20px;
+        font-size: 19px;
+        width: 100%;
+        & .same-line {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        & .job-title{
+            font-weight: bold;
+        }
+        & .job-role{
+            font-weight: bold;
+        }
+        & .job-time, .job-place {
+            margin-left: auto;
+            font-style: italic;
+        }
+        & .job-description{
+            margin-top: 40px;
+            line-height: 34px;
         }
     }
 }
@@ -150,6 +188,15 @@ body{
         margin-top: 20px;
         justify-content: center;
         align-items: center;
+        & a{
+            text-decoration: none;
+            color: #333333;
+            font-weight: bold;
+            font-style: italic;
+        }
+        &.flex{
+            display: flex;
+        }
         &.bigger-font{
             font-size: 20px;
         }
@@ -218,6 +265,9 @@ body{
     }
     &.white{
         background-color: white;
+    }
+    &.gray{
+        background-color: #ddd;
     }
     &.lighter{
         background-color: #ef8b80;
