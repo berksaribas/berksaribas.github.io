@@ -33,7 +33,7 @@ body {
     padding: 15px 0 15px 0; }
     @media (max-width: 480px) {
       .header .navbar {
-        justify-content: center; } }
+        justify-content: flex-start; } }
     .header .navbar .left-part {
       margin-right: auto; }
       .header .navbar .left-part .name {
@@ -50,7 +50,9 @@ body {
       display: flex; }
       @media (max-width: 480px) {
         .header .navbar .right-part {
-          margin-left: 0; } }
+          margin-left: 0;
+          flex-flow: column;
+          align-items: flex-start; } }
       .header .navbar .right-part .navbar-button {
         text-decoration: none;
         color: white;
@@ -65,6 +67,8 @@ body {
   justify-self: center;
   width: 100%;
   margin-bottom: 70px; }
+  .job:last-child {
+    margin-bottom: 0; }
   .job .job-photo img {
     border-radius: 100%;
     width: 70px; }
@@ -72,6 +76,9 @@ body {
     margin-left: 20px;
     font-size: 19px;
     width: 100%; }
+    @media (max-width: 480px) {
+      .job .job-right {
+        font-size: 16px; } }
     .job .job-right .same-line {
       display: flex;
       margin-bottom: 10px; }
@@ -85,6 +92,9 @@ body {
     .job .job-right .job-description {
       margin-top: 40px;
       line-height: 34px; }
+      @media (max-width: 480px) {
+        .job .job-right .job-description {
+          line-height: 25px; } }
 
 .portfolio-content {
   width: 100%;
@@ -144,15 +154,15 @@ body {
     color: #e74c3c; }
     @media (max-width: 480px) {
       .part .title {
-        font-size: 40px; } }
+        font-size: 30px; } }
     .part .title.right {
       text-align: right; }
       @media (max-width: 480px) {
         .part .title.right {
-          text-align: center; } }
+          text-align: left; } }
     @media (max-width: 480px) {
       .part .title {
-        text-align: center; } }
+        text-align: left; } }
   .part .content {
     margin-top: 20px;
     justify-content: center;
@@ -165,7 +175,10 @@ body {
     .part .content.flex {
       display: flex; }
     .part .content.bigger-font {
-      font-size: 20px; }
+      font-size: 19px; }
+      @media (max-width: 480px) {
+        .part .content.bigger-font {
+          font-size: 16px; } }
     .part .content.together {
       display: flex; }
       @media (max-width: 480px) {
@@ -210,7 +223,7 @@ body {
       color: white; }
     @media (max-width: 480px) {
       .part.entrance {
-        padding: 50px 0;
+        padding: 0px 0 50px 0;
         height: auto; } }
   .part.white {
     background-color: white; }
@@ -225,7 +238,7 @@ body {
     background-color: #EDEDED; }
   @media (max-width: 480px) {
     .part {
-      padding: 50px 0;
+      padding: 30px 0;
       height: auto; } }
 
 .profile-pic {
