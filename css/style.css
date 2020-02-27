@@ -112,6 +112,9 @@ body {
   position: relative;
   text-decoration: none;
   color: white; }
+  .portfolio-box.large {
+    height: 600px;
+  }
   .portfolio-box .info {
     opacity: 0;
     padding: 10px 0;
@@ -185,37 +188,6 @@ body {
         .part .content.together {
           justify-content: center;
           flex-flow: column wrap; } }
-    .part .content ul {
-      list-style-type: none;
-      margin: 10px 0 0 0;
-      padding: 0; }
-      .part .content ul li {
-        display: flex;
-        padding: 10px;
-        transition: background-color 0.3s, color 0.3s, width 1s;
-        font-weight: 700;
-        width: 150px; }
-        .part .content ul li .info {
-          opacity: 0;
-          transition: opacity 0.3s;
-          margin-left: auto; }
-        .part .content ul li:hover {
-          background-color: #f1978d;
-          color: white; }
-          .part .content ul li:hover .info {
-            opacity: 1; }
-          .part .content ul li:hover.ninty {
-            width: 90%; }
-          .part .content ul li:hover.eighty {
-            width: 80%; }
-          .part .content ul li:hover.seventy {
-            width: 70%; }
-          .part .content ul li:hover.sixty {
-            width: 60%; }
-          .part .content ul li:hover.fifty {
-            width: 50%; }
-          .part .content ul li:hover.forthy {
-            width: 40%; }
   .part.entrance {
     background: linear-gradient(#eb6b5d, #f1978d);
     color: white; }
@@ -260,6 +232,7 @@ body {
     transition: opacity 0.4s;
     display: flex;
     justify-content: center;
+    text-align: center;
     align-items: center; }
     .profile-pic .info:hover {
       opacity: 1; }
