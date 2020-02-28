@@ -125,10 +125,14 @@ body {
     transition: opacity 0.3s;
     text-align: center; }
   .portfolio-box img {
-    width: 70%;
-    transition: width 0.5s, height 0.5s; }
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transition: all .2s ease-in-out; }
   .portfolio-box:hover img {
-    width: 50%; }
+    height: 75%;
+    width: 75%;
+  }
   .portfolio-box:hover .info {
     opacity: 1; }
   @media (max-width: 480px) {
