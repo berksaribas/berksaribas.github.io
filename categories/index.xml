@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Berk Emre Saribas</title>
-    <link>https://example.com/categories/</link>
+    <link>https://berksaribas.github.io/categories/</link>
     <description>Recent content in Categories on Berk Emre Saribas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2023, Berk Emre Saribas</copyright><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2023, Berk Emre Saribas</copyright><atom:link href="https://berksaribas.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Berk Emre Saribas</title>
-    <link>https://example.com/tags/index/</link>
+    <link>https://berksaribas.github.io/tags/index/</link>
     <description>Recent content in index on Berk Emre Saribas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2023, Berk Emre Saribas</copyright><atom:link href="https://example.com/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>&amp;copy; 2023, Berk Emre Saribas</copyright><atom:link href="https://berksaribas.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://example.com/post/</link>
+      <link>https://berksaribas.github.io/post/</link>
       <pubDate>Tue, 12 Dec 2023 08:47:11 +0100</pubDate>
       
-      <guid>https://example.com/post/</guid>
+      <guid>https://berksaribas.github.io/post/</guid>
       <description></description>
     </item>
     
