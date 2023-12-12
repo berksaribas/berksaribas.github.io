@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Berk Saribas</title>
-    <link>https://berksaribas.github.io/</link>
-    <description>Recent content on Berk Saribas</description>
+    <title>Berk Emre Saribas</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Berk Emre Saribas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://berksaribas.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>&amp;copy; 2023, Berk Emre Saribas</copyright>
+    <lastBuildDate>Tue, 12 Dec 2023 08:47:11 +0100</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://example.com/post/offtopic/hello-world/</link>
+      <pubDate>Tue, 12 Dec 2023 08:47:11 +0100</pubDate>
+      
+      <guid>https://example.com/post/offtopic/hello-world/</guid>
+      <description>Hi!
+I&amp;rsquo;ve been wanting to create a blog for a while now. Hopefully will be writing soon! Until then, take care!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Graphics engineer and game developer. Currently working at The Forge as a graphics programmer.
+Before, I worked at Gram Games (Zynga) and GritWorld. See my CV here.
+Here are a bunch of my projects:
+Real-time Volumetric Clouds Inspired by Horizon Zero Dawn, I’ve implemented volumetric clouds based on Guerilla’s talk. I’ve used the engine I developed for my thesis to implement this project. After the theis, I implemented a frame/render graph to quickly work on real-time effects like this one.</description>
+    </item>
+    
   </channel>
 </rss>
